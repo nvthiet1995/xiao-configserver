@@ -1,0 +1,12 @@
+services:
+  configserver:
+    image: "nvthiet1995/configserver:latest"
+    container_name: configserver-ms
+    ports:
+      - "8888:8888"
+    networks:
+      - xiaonet
+
+networks:
+  xiaonet:
+    driver: "bridge"

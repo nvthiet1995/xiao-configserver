@@ -32,5 +32,5 @@ encrypt:
   key: "55881873984493C93AB5935A15E6C"
 
 server:
-  port: 8071
+  port: 8888
 
